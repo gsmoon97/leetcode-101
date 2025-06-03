@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/valid-parentheses/submissions/1653064881/",
+  "language": "Python3",
+  "runtime_ms": 0,
+  "memory_mb": 17.74,
+  "time_percentile": 100.0,
+  "memory_percentile": 80.76,
+  "approach": "One-pass stack with look-up map",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
+}
