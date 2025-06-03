@@ -2,7 +2,7 @@
 
 | Difficulty | Tags | Latest submission | Last updated |
 | --- | --- | --- | --- |
-| Easy | array · hash-table | **Python3** · 0 ms · 18.9 MB | 2025-06-03 18:51 UTC |
+| Easy | array · hash-table | **Python3** · 0 ms · 18.9 MB | 2025-06-03 19:08 UTC |
 
 ---
 
@@ -46,6 +46,6 @@ class Solution:
 ---
 
 ## Submission Stats
-| Runtime | Memory | Beats |
-| --- | --- | --- |
-| 0 ms | 18.9 MB | 100.0 % time · 33.86 % memory |
+| Runtime | Memory | Beats | Submission |
+| --- | --- | --- | --- |
+| 0 ms | 18.9 MB | 100.0 % time · 33.86 % memory | [View](https://leetcode.com/problems/two-sum/submissions/1651054846/) |

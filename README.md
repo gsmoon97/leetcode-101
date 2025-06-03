@@ -3,16 +3,25 @@
 A well-organized, self-contained archive of accepted LeetCode solutions, with each problem neatly stored in its own dedicated folder.
 
 ```
-<repo>/
+<root>/
 │
-├── .template-problem/        ← reusable blueprint (do not edit)
-├── 0001-two-sum/             ← example problem folder
+├── .template-problem/      ← reusable blueprint (do not edit)
+│   ├── prompt.json         ← problem metadata
+│   ├── submission.json     ← submission metrics
+│   ├── solution.py         ← solution template
+│   └── README.md           ← readme template
+│
+├── 0001-two-sum/           ← example problem folder
 │   ├── prompt.json
 │   ├── submission.json
 │   ├── solution.py
 │   └── README.md
-└── 0146-lru-cache/
-    ├── ...
+│
+├── create_problem.sh        ← scaffold generator
+├── generate_readme.py       ← readme generator
+├── update_submission.py     ← submission updater
+├── requirements.txt         ← Python dependencies
+└── README.md                ← this file
 ```
 
 ---

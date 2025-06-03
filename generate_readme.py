@@ -104,7 +104,8 @@ def main():
 {friendly_table({
     'Runtime': f"{sub.get('runtime_ms','?')} ms",
     'Memory': f"{sub.get('memory_mb','?'):.1f} MB" if sub.get('memory_mb') else '?',
-    'Beats': f"{sub.get('time_percentile','?')} % time · {sub.get('memory_percentile','?')} % memory"
+    'Beats': f"{sub.get('time_percentile','?')} % time · {sub.get('memory_percentile','?')} % memory",
+    'Submission': f"[View]({sub.get('url', '#')})" if sub.get('url') else '–'
 })}
 """
 
