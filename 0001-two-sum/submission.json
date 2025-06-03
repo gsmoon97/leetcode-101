@@ -1,0 +1,11 @@
+{
+  "timestamp": "Jun 02, 2025 03:58",
+  "language": "Python3",
+  "runtime_ms": 0,
+  "memory_mb": 18.91,
+  "time_percentile": 100.0,
+  "memory_percentile": 33.86,
+  "approach": "One-pass hash map",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
+}
