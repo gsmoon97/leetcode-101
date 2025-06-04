@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/1653942312/",
+  "language": "Python3",
+  "runtime_ms": 75,
+  "memory_mb": 26.89,
+  "time_percentile": 68.96,
+  "memory_percentile": 77.67,
+  "approach": "One-pass iteration of the 'prices' with update to the 'buy price' only when a smaller value is encountered",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
+}
