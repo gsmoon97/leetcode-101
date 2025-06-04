@@ -1,0 +1,7 @@
+{
+  "id": 21,
+  "title": "Merge Two Sorted Lists",
+  "url": "https://leetcode.com/problems/merge-two-sorted-lists",
+  "difficulty": "Easy",
+  "tags": ["linked-list", "recursion"]
+}

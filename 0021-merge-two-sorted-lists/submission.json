@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/merge-two-sorted-lists/submissions/1653918832/",
+  "language": "Python3",
+  "runtime_ms": 0,
+  "memory_mb": 17.78,
+  "time_percentile": 100.0,
+  "memory_percentile": 61.17,
+  "approach": "In-place merging with two pointers for each list and one pointer for the merged list",
+  "time_complexity": "O(m + n)",
+  "space_complexity": "O(1)"
+}
