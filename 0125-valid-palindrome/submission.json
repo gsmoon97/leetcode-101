@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/valid-palindrome/submissions/1656613073/",
+  "language": "Python3",
+  "runtime_ms": 3,
+  "memory_mb": 18.30,
+  "time_percentile": 98.96,
+  "memory_percentile": 42.80,
+  "approach": "Two-pointers closing in on the middle",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
+}
