@@ -1,0 +1,7 @@
+{
+  "id": 242,
+  "title": "Valid Anagram",
+  "url": "https://leetcode.com/problems/valid-anagram",
+  "difficulty": "Easy",
+  "tags": ["hash-table", "string", "sorting"]
+}
