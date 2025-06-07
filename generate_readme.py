@@ -70,7 +70,7 @@ def main():
     'Difficulty': prompt.get('difficulty', 'Unrated'),
     'Tags': ' · '.join(prompt.get('tags', [])) or '–',
     'Latest submission': f"**{sub.get('language','?')}** · {sub.get('runtime_ms', '?')} ms · {sub.get('memory_mb', '?'):.1f} MB" if sub.get('memory_mb') else '–',
-    'Last updated': datetime.datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')
+    'Last updated': datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
 })}
 
 ---
