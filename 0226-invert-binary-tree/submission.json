@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/invert-binary-tree/submissions/1656634563/",
+  "language": "Python3",
+  "runtime_ms": 0,
+  "memory_mb": 17.90,
+  "time_percentile": 100.0,
+  "memory_percentile": 31.65,
+  "approach": "DFS with recursion",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(h)"
+}

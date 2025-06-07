@@ -1,0 +1,7 @@
+{
+  "id": 226,
+  "title": "Invert Binary Tree",
+  "url": "https://leetcode.com/problems/invert-binary-tree",
+  "difficulty": "Easy",
+  "tags": ["tree", "depth-first-search", "breadth-first-search", "binary-tree"]
+}
