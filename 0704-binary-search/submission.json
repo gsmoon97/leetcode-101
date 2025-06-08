@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/binary-search/submissions/1657203855/",
+  "language": "Python3",
+  "runtime_ms": 0,
+  "memory_mb": 18.93,
+  "time_percentile": 100.0,
+  "memory_percentile": 6.33,
+  "approach": "Binary search",
+  "time_complexity": "O(log n)",
+  "space_complexity": "O(1)"
+}
