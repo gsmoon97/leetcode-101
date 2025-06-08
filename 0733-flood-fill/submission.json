@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/flood-fill/submissions/1657710478/",
+  "language": "Python3",
+  "runtime_ms": 0,
+  "memory_mb": 17.94,
+  "time_percentile": 0.0,
+  "memory_percentile": 69.89,
+  "approach": "BFS (DFS also works since this is essentially a graph-reachability problem)",
+  "time_complexity": "O(m x n)",
+  "space_complexity": "O(w)"
+}
