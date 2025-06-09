@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/submissions/1658937979/",
+  "language": "Python3",
+  "runtime_ms": 57,
+  "memory_mb": 20.96,
+  "time_percentile": 65.35,
+  "memory_percentile": 81.28,
+  "approach": "One-pass walk down the BST from the root until no longer can traverse to the same subtree for both p and q (i.e., first point of divergence is the LCA)",
+  "time_complexity": "O(h)",
+  "space_complexity": "O(1)"
+}
