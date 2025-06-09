@@ -26,6 +26,43 @@ A well-organized, self-contained archive of accepted LeetCode solutions, with ea
 
 ---
 
+## 📊 Statistics
+
+### Overall
+
+- Total Problems Solved: 10
+- Average Runtime: 14.60 ms
+- Average Memory: 19.30 MB
+- Average Time Percentile: 80.60%
+- Average Memory Percentile: 58.30%
+
+### Difficulty Breakdown
+
+| Difficulty | Count |
+|------------|-------|
+| Easy | 9 |
+| Medium | 1 |
+
+### Top Tags
+
+| Tag | Count |
+|-----|-------|
+| array | 4 |
+| depth-first-search | 3 |
+| string | 3 |
+| breadth-first-search | 2 |
+| tree | 2 |
+| binary-tree | 2 |
+| hash-table | 2 |
+| matrix | 1 |
+| dynamic-programming | 1 |
+| binary-search-tree | 1 |
+
+### Languages Used
+
+| Language | Count |
+|----------|-------|
+| Python3 | 10 |
 ## 🛠  Prerequisites
 
 | Tool | Purpose | Install (macOS) |
