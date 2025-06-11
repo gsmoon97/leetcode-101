@@ -6,10 +6,10 @@
 
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
-        has_seen = set()  # keep track of all the visited nodes
-        node = head
-        while node:
-            if node in has_seen:
+        slow = fast = head
+        while fast and fast.next:
+            slow = slow.next  # slow visits one node per iteration
+            fast = fast.next.next  # fast visits two nodes per iteration
+            if slow is fast:  # if fast catches up with slow, there is a cycle
                 return True
-            has_seen.add(node)
-            node = node.next
+        return False  # if fast never catches up with slow and reaches the end, there is no cycle

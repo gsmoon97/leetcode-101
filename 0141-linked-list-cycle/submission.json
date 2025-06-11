@@ -1,11 +1,11 @@
 {
-  "url": "https://leetcode.com/problems/linked-list-cycle/submissions/1661242785/",
+  "url": "https://leetcode.com/problems/linked-list-cycle/submissions/1661249084/",
   "language": "Python3",
-  "runtime_ms": 55,
-  "memory_mb": 16.69,
-  "time_percentile": 20.37,
-  "memory_percentile": 5.57,
-  "approach": "One-pass iteration of all the nodes while keeping track of all visited nodes in a hash-set",
+  "runtime_ms": 51,
+  "memory_mb": 39.67,
+  "time_percentile": 19.85,
+  "memory_percentile": 56.40,
+  "approach": "Floyd’s Tortoise-and-Hare to achieve O(1) space complexity, based on the assumption that if there is a cycle, the fast pointer will eventually 'catch up' with the slow pointer.",
   "time_complexity": "O(n)",
-  "space_complexity": "O(n)"
+  "space_complexity": "O(1)"
 }

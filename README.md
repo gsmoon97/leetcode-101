@@ -31,6 +31,41 @@ A well-organized, self-contained archive of accepted LeetCode solutions, with ea
 ### Overall
 
 - Total Problems Solved: 12
+- Average Runtime: 16.67 ms
+- Average Memory: 20.97 MB
+- Average Time Percentile: 74.41%
+- Average Memory Percentile: 55.55%
+
+### Difficulty Breakdown
+
+| Difficulty | Count |
+|------------|-------|
+| Easy | 11 |
+| Medium | 1 |
+
+### Top Tags
+
+| Tag | Count |
+|-----|-------|
+| array | 4 |
+| depth-first-search | 4 |
+| tree | 3 |
+| binary-tree | 3 |
+| string | 3 |
+| hash-table | 3 |
+| breadth-first-search | 2 |
+| linked-list | 2 |
+| two-pointers | 2 |
+| matrix | 1 |
+
+### Languages Used
+
+| Language | Count |
+|----------|-------|
+| Python3 | 12 |
+### Overall
+
+- Total Problems Solved: 12
 - Average Runtime: 17.00 ms
 - Average Memory: 19.06 MB
 - Average Time Percentile: 74.45%
