@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/balanced-binary-tree/submissions/1661231044/",
+  "language": "Python3",
+  "runtime_ms": 3,
+  "memory_mb": 18.93,
+  "time_percentile": 67.05,
+  "memory_percentile": 27.25,
+  "approach": "A single post-order DFS (children first, parent last)",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(h)"
+}
