@@ -3,26 +3,29 @@ from collections import deque
 class MyQueue:
 
     def __init__(self):
-        self.stack1 = deque()  # LIFO
-        self.stack2 = deque()  # reverse LIFO (FIFO)
+        self._in = deque()  # LIFO
+        self._out = deque()  # reverse LIFO (FIFO)
+    
+    # move all elements from _in to _out
+    def _transfer(self) -> None:
+        while self._in:
+            self._out.append(self._in.pop())
 
     def push(self, x: int) -> None:
-        while self.stack2:
-            self.stack1.append(self.stack2.pop())
-        self.stack1.append(x)
+        self._in.append(x)
 
     def pop(self) -> int:
-        while self.stack1:
-            self.stack2.append(self.stack1.pop())
-        return self.stack2.pop()
+        if not self._out:
+            self._transfer()  # only trigger _transfer when _out is empty
+        return self._out.pop()
 
     def peek(self) -> int:
-        while self.stack1:
-            self.stack2.append(self.stack1.pop())
-        return self.stack2[-1]
+        if not self._out:
+            self._transfer()  # only trigger _transfer when _out is empty
+        return self._out[-1]
 
     def empty(self) -> bool:
-        return (not self.stack1) and (not self.stack2)
+        return (not self._in) and (not self._out)
 
 
 # Your MyQueue object will be instantiated and called as such:

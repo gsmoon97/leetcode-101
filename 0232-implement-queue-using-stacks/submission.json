@@ -1,11 +1,11 @@
 {
-  "url": "https://leetcode.com/problems/implement-queue-using-stacks/submissions/1663763680/",
+  "url": "https://leetcode.com/problems/implement-queue-using-stacks/submissions/1663778202/",
   "language": "Python3",
-  "runtime_ms": 1,
-  "memory_mb": 17.76,
-  "time_percentile": 1.83,
-  "memory_percentile": 90.32,
-  "approach": "Two internal stacks (FIFO and reverse FIFO) where only one is always full",
+  "runtime_ms": 0,
+  "memory_mb": 18.03,
+  "time_percentile": 100.00,
+  "memory_percentile": 19.69,
+  "approach": "Two internal stacks where `_in` (FIFO) maintains all elements that are pushed and `_out` (reverse FIFO) maintains all elements that are to be pulled. Transfer from `_in` to `_out` is only triggered when `_out` is empty (lazy transfer). This ensures that all elements are transferred at most once only to keep the amortized bound to O(1).",
   "time_complexity": "O(n)",
   "space_complexity": "O(n)"
 }
