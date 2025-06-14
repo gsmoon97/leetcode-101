@@ -109,10 +109,13 @@ def update_readme(stats_md: str):
     if "## 📊 Statistics" in content:
         # Update existing stats section
         start = content.find("## 📊 Statistics")
-        end = content.find("##", start + 1)
-        if end == -1:
-            end = len(content)
-        content = content[:start] + stats_md + content[end:]
+        next_section = content.find("\n---\n", start + 1)
+        if next_section == -1:
+            # If no next section, replace until the end
+            content = content[:start] + stats_md
+        else:
+            # Replace until the next section
+            content = content[:start] + stats_md + content[next_section:]
     else:
         # Add stats section before the first ##
         first_section = content.find("##")

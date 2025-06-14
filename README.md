@@ -17,11 +17,12 @@ A well-organized, self-contained archive of accepted LeetCode solutions, with ea
 │   ├── solution.py
 │   └── README.md
 │
-├── create_problem.sh        ← scaffold generator
-├── generate_readme.py       ← readme generator
-├── update_submission.py     ← submission updater
-├── requirements.txt         ← Python dependencies
-└── README.md                ← this file
+├── init.sh                ← scaffold generator
+├── gen_readme.py          ← readme generator
+├── get_stats.py           ← statistics updater
+├── update_submission.py   ← submission updater
+├── requirements.txt       ← Python dependencies
+└── README.md              ← this file
 ```
 
 ---
@@ -63,188 +64,16 @@ A well-organized, self-contained archive of accepted LeetCode solutions, with ea
 | Language | Count |
 |----------|-------|
 | Python3 | 13 |
-### Overall
 
-- Total Problems Solved: 13
-- Average Runtime: 15.46 ms
-- Average Memory: 20.72 MB
-- Average Time Percentile: 68.82%
-- Average Memory Percentile: 58.23%
+---
 
-### Difficulty Breakdown
-
-| Difficulty | Count |
-|------------|-------|
-| Easy | 12 |
-| Medium | 1 |
-
-### Top Tags
-
-| Tag | Count |
-|-----|-------|
-| array | 4 |
-| depth-first-search | 4 |
-| tree | 3 |
-| binary-tree | 3 |
-| string | 3 |
-| hash-table | 3 |
-| breadth-first-search | 2 |
-| linked-list | 2 |
-| stack | 2 |
-| two-pointers | 2 |
-
-### Languages Used
-
-| Language | Count |
-|----------|-------|
-| Python3 | 13 |
-### Overall
-
-- Total Problems Solved: 12
-- Average Runtime: 16.67 ms
-- Average Memory: 20.97 MB
-- Average Time Percentile: 74.41%
-- Average Memory Percentile: 55.55%
-
-### Difficulty Breakdown
-
-| Difficulty | Count |
-|------------|-------|
-| Easy | 11 |
-| Medium | 1 |
-
-### Top Tags
-
-| Tag | Count |
-|-----|-------|
-| array | 4 |
-| depth-first-search | 4 |
-| tree | 3 |
-| binary-tree | 3 |
-| string | 3 |
-| hash-table | 3 |
-| breadth-first-search | 2 |
-| linked-list | 2 |
-| two-pointers | 2 |
-| matrix | 1 |
-
-### Languages Used
-
-| Language | Count |
-|----------|-------|
-| Python3 | 12 |
-### Overall
-
-- Total Problems Solved: 12
-- Average Runtime: 17.00 ms
-- Average Memory: 19.06 MB
-- Average Time Percentile: 74.45%
-- Average Memory Percentile: 51.31%
-
-### Difficulty Breakdown
-
-| Difficulty | Count |
-|------------|-------|
-| Easy | 11 |
-| Medium | 1 |
-
-### Top Tags
-
-| Tag | Count |
-|-----|-------|
-| array | 4 |
-| depth-first-search | 4 |
-| tree | 3 |
-| binary-tree | 3 |
-| string | 3 |
-| hash-table | 3 |
-| breadth-first-search | 2 |
-| linked-list | 2 |
-| two-pointers | 2 |
-| matrix | 1 |
-
-### Languages Used
-
-| Language | Count |
-|----------|-------|
-| Python3 | 12 |
-### Overall
-
-- Total Problems Solved: 11
-- Average Runtime: 13.55 ms
-- Average Memory: 19.27 MB
-- Average Time Percentile: 79.37%
-- Average Memory Percentile: 55.47%
-
-### Difficulty Breakdown
-
-| Difficulty | Count |
-|------------|-------|
-| Easy | 10 |
-| Medium | 1 |
-
-### Top Tags
-
-| Tag | Count |
-|-----|-------|
-| array | 4 |
-| depth-first-search | 4 |
-| tree | 3 |
-| binary-tree | 3 |
-| string | 3 |
-| breadth-first-search | 2 |
-| hash-table | 2 |
-| matrix | 1 |
-| dynamic-programming | 1 |
-| binary-search-tree | 1 |
-
-### Languages Used
-
-| Language | Count |
-|----------|-------|
-| Python3 | 11 |
-### Overall
-
-- Total Problems Solved: 10
-- Average Runtime: 14.60 ms
-- Average Memory: 19.30 MB
-- Average Time Percentile: 80.60%
-- Average Memory Percentile: 58.30%
-
-### Difficulty Breakdown
-
-| Difficulty | Count |
-|------------|-------|
-| Easy | 9 |
-| Medium | 1 |
-
-### Top Tags
-
-| Tag | Count |
-|-----|-------|
-| array | 4 |
-| depth-first-search | 3 |
-| string | 3 |
-| breadth-first-search | 2 |
-| tree | 2 |
-| binary-tree | 2 |
-| hash-table | 2 |
-| matrix | 1 |
-| dynamic-programming | 1 |
-| binary-search-tree | 1 |
-
-### Languages Used
-
-| Language | Count |
-|----------|-------|
-| Python3 | 10 |
 ## 🛠  Prerequisites
 
 | Tool | Purpose | Install (macOS) |
 |------|---------|-----------------|
 | **Python 3.8+** | run scripts & code | `brew install python` |
 | **jq** | JSON CLI edits | `brew install jq` |
-| **tree** | nice directory printouts (used in `create_problem.sh`) | `brew install tree` |
+| **tree** | nice directory printouts (used in `init.sh`) | `brew install tree` |
 
 *(On Linux, replace `brew` with your package manager; on Windows, Scoop or WSL can do the same.)*
 
@@ -255,7 +84,7 @@ A well-organized, self-contained archive of accepted LeetCode solutions, with ea
 1. **Create a new scaffold**
 
    ```bash
-   ./create_problem.sh 123 "Best Time to Buy and Sell Stock" https://leetcode.com/problems/best-time-to-buy-and-sell-stock
+   ./init.sh 123 "Best Time to Buy and Sell Stock" https://leetcode.com/problems/best-time-to-buy-and-sell-stock
    # → 0123-best-time-to-buy-and-sell-stock/
    ```
 
@@ -268,7 +97,7 @@ A well-organized, self-contained archive of accepted LeetCode solutions, with ea
 4. **Generate the folder-level README**
 
    ```bash
-   python generate_readme.py 0123-best-time-to-buy-and-sell-stock
+   python gen_readme.py 0123-best-time-to-buy-and-sell-stock
    ```
 
 5. **Commit**
@@ -289,7 +118,7 @@ A well-organized, self-contained archive of accepted LeetCode solutions, with ea
 | `solution.*` | Exactly **one** source file representing the latest accepted solution. |
 | `README.md` | Auto-generated summary combining the two JSON files + code. |
 
-Copy this directory whenever you start a new problem—our `create_problem.sh` does the copying and placeholder replacement for you.
+Copy this directory whenever you start a new problem—our `init.sh` does the copying and placeholder replacement for you.
 
 ---
 
@@ -297,7 +126,28 @@ Copy this directory whenever you start a new problem—our `create_problem.sh` d
 
 | Script | Description |
 |--------|-------------|
-| `create_problem.sh` | Scaffolds a new problem folder from `.template-problem`. |
-| `generate_readme.py` | Builds/refreshes the per-problem `README.md` using JSON metadata. |
+| `init.sh` | Scaffolds a new problem folder from `.template-problem`. |
+| `gen_readme.py` | Builds/refreshes the per-problem `README.md` using JSON metadata. |
+| `get_stats.py` | Updates the root-level README.md with overall statistics (problems solved, runtime, memory, etc.). |
+| `update_submission.py` | Updates submission metrics in problem folders. |
 
-Both live in the repo root for easy access.
+All scripts live in the repo root for easy access.
+
+---
+
+## 🔧 Git Hooks
+
+To automatically update the root-level README.md whenever problem files are modified, add this pre-commit hook:
+
+```bash
+#!/bin/sh
+
+# Check if any problem folders were modified
+if git diff --cached --name-only | grep -E '^[0-9]+-.*/.*\.(json|py)$' > /dev/null; then
+    echo "Updating README.md with latest statistics..."
+    python3 get_stats.py
+    git add README.md
+fi
+```
+
+Save this as `.git/hooks/pre-commit` and make it executable with `chmod +x .git/hooks/pre-commit`.

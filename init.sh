@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Usage: ./create_problem.sh <id> "<title>" <URL>
+# Usage: ./initialize.sh <id> "<title>" <URL>
 
 set -e
 
