@@ -1,0 +1,7 @@
+{
+  "id": 70,
+  "title": "Climbing Stairs",
+  "url": "https://leetcode.com/problems/climbing-stairs/",
+  "difficulty": "Easy",
+  "tags": ["math", "dynamic-programming", "memoization"]
+}
