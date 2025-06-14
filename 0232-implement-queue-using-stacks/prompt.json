@@ -1,0 +1,7 @@
+{
+  "id": 232,
+  "title": "Implement Queue using Stacks",
+  "url": "https://leetcode.com/problems/implement-queue-using-stacks",
+  "difficulty": "Easy",
+  "tags": ["stack", "design", "queue"]
+}

@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/implement-queue-using-stacks/submissions/1663763680/",
+  "language": "Python3",
+  "runtime_ms": 1,
+  "memory_mb": 17.76,
+  "time_percentile": 1.83,
+  "memory_percentile": 90.32,
+  "approach": "Two internal stacks (FIFO and reverse FIFO) where only one is always full",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
+}
