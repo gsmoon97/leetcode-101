@@ -31,17 +31,17 @@ A well-organized, self-contained archive of accepted LeetCode solutions, with ea
 
 ### Overall
 
-- Total Problems Solved: 13
-- Average Runtime: 15.38 ms
-- Average Memory: 20.74 MB
-- Average Time Percentile: 76.37%
-- Average Memory Percentile: 52.79%
+- Total Problems Solved: 14
+- Average Runtime: 16.86 ms
+- Average Memory: 20.53 MB
+- Average Time Percentile: 75.73%
+- Average Memory Percentile: 52.23%
 
 ### Difficulty Breakdown
 
 | Difficulty | Count |
 |------------|-------|
-| Easy | 12 |
+| Easy | 13 |
 | Medium | 1 |
 
 ### Top Tags
@@ -63,7 +63,7 @@ A well-organized, self-contained archive of accepted LeetCode solutions, with ea
 
 | Language | Count |
 |----------|-------|
-| Python3 | 13 |
+| Python3 | 14 |
 
 ---
 

@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/first-bad-version/submissions/1663850854/",
+  "language": "Python3",
+  "runtime_ms": 36,
+  "memory_mb": 17.73,
+  "time_percentile": 67.28,
+  "memory_percentile": 44.95,
+  "approach": "Binary search to halve the candidate interval per iteration until the two pointers converge.",
+  "time_complexity": "O(log n)",
+  "space_complexity": "O(1)"
+}
