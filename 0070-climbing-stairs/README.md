@@ -2,7 +2,7 @@
 
 | Difficulty | Tags | Latest submission | Last updated |
 | --- | --- | --- | --- |
-| Easy | math · dynamic-programming · memoization | **Python3** · 0 ms · 17.9 MB | 2025-06-14 16:54 UTC |
+| Easy | math · dynamic-programming · memoization | **Python3** · 0 ms · 17.7 MB | 2025-06-14 17:06 UTC |
 
 ---
 
@@ -12,7 +12,7 @@ https://leetcode.com/problems/climbing-stairs/
 ---
 
 ## Approach
-Bottom-up iteration of Fibonacci sequence where f(n) = f(n-1) + f(n-2) (since top-down recursion leads to stack limit)
+Top-down recursion with memoization
 
 ---
 
@@ -43,4 +43,4 @@ class Solution:
 ## Submission Stats
 | Runtime | Memory | Beats | Submission |
 | --- | --- | --- | --- |
-| 0 ms | 17.9 MB | 100.0 % time · 30.15 % memory | [View](https://leetcode.com/problems/climbing-stairs/submissions/1664045983/) |
+| 0 ms | 17.7 MB | 100.0 % time · 48.49 % memory | [View](https://leetcode.com/problems/climbing-stairs/submissions/1664056606/) |

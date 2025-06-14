@@ -1,11 +1,11 @@
 {
-  "url": "https://leetcode.com/problems/climbing-stairs/submissions/1664045983/",
+  "url": "https://leetcode.com/problems/climbing-stairs/submissions/1664056606/",
   "language": "Python3",
   "runtime_ms": 0,
-  "memory_mb": 17.89,
+  "memory_mb": 17.72,
   "time_percentile": 100.00,
-  "memory_percentile": 30.15,
-  "approach": "Bottom-up iteration of Fibonacci sequence where f(n) = f(n-1) + f(n-2) (since top-down recursion leads to stack limit)",
+  "memory_percentile": 48.49,
+  "approach": "Top-down recursion with memoization",
   "time_complexity": "O(n)",
   "space_complexity": "O(1)"
 }

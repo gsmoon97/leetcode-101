@@ -33,9 +33,9 @@ A well-organized, self-contained archive of accepted LeetCode solutions, with ea
 
 - Total Problems Solved: 16
 - Average Runtime: 15.94 ms
-- Average Memory: 20.19 MB
+- Average Memory: 20.18 MB
 - Average Time Percentile: 76.20%
-- Average Memory Percentile: 53.82%
+- Average Memory Percentile: 54.97%
 
 ### Difficulty Breakdown
 
