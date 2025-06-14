@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/ransom-note/submissions/1663864450/",
+  "language": "Python3",
+  "runtime_ms": 19,
+  "memory_mb": 17.68,
+  "time_percentile": 59.03,
+  "memory_percentile": 99.71,
+  "approach": "One-pass of both `magazine` and `ransomNote` with a fixed 26-slot array of all valid lowercase English characters",
+  "time_complexity": "O(m+n)",
+  "space_complexity": "O(1)"
+}
