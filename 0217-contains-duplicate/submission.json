@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/contains-duplicate/submissions/1664906448/",
+  "language": "Python3",
+  "runtime_ms": 11,
+  "memory_mb": 31.58,
+  "time_percentile": 76.07,
+  "memory_percentile": 53.52,
+  "approach": "One-pass with a hash set to track previously seen numbers",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
+}

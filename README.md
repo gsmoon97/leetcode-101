@@ -32,10 +32,10 @@ A well-organized, self-contained archive of accepted LeetCode solutions, with ea
 ### Overall
 
 - Total Problems Solved: 24
-- Average Runtime: 10.83 ms
-- Average Memory: 18.91 MB
-- Average Time Percentile: 74.18%
-- Average Memory Percentile: 53.20%
+- Average Runtime: 11.29 ms
+- Average Memory: 20.23 MB
+- Average Time Percentile: 77.35%
+- Average Memory Percentile: 55.43%
 
 ### Difficulty Breakdown
 
