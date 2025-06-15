@@ -1,11 +1,11 @@
 {
-  "url": "https://leetcode.com/problems/reverse-linked-list/submissions/1664710976/",
+  "url": "https://leetcode.com/problems/reverse-linked-list/submissions/1664719385/",
   "language": "Python3",
   "runtime_ms": 0,
-  "memory_mb": 18.80,
+  "memory_mb": 18.46,
   "time_percentile": 100.00,
-  "memory_percentile": 14.67,
-  "approach": "Recursion",
+  "memory_percentile": 95.87,
+  "approach": "Iteration with two persistent pointers `prv` (previous node) and `cur` (current node). Since only one link is reversed per iteration, two pointers that respectively point to the source and destination of the link are sufficient.",
   "time_complexity": "O(n)",
-  "space_complexity": "O(n)"
+  "space_complexity": "O(1)"
 }
