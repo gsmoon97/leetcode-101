@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/longest-palindrome/submissions/1664675923/",
+  "language": "Python3",
+  "runtime_ms": 0,
+  "memory_mb": 17.83,
+  "time_percentile": 0.0,
+  "memory_percentile": 46.28,
+  "approach": "Hash map to count frequency of each unique letter and sum the largest even contribution per letter (e.g., 1 for 2, 2 for 5, etc.). Lastly, add 1 more count if any odd count exists (the remaining element can be used as the center character).",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
+}
