@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/majority-element/submissions/1664746088/",
+  "language": "Python3",
+  "runtime_ms": 1,
+  "memory_mb": 19.28,
+  "time_percentile": 87.15,
+  "memory_percentile": 87.20,
+  "approach": "Boyer–Moore Majority Vote. A single candidate and the corresponding balance is maintained where each candidate appearance increments the balance and each non-candidate appearance decrements the balance. The candidate is only replaced with the current number if the balance reaches 0. Because the majority element appears more than ⌊n/2⌋ times, it cannot be completely cancelled out by other elements, ensuring that the majority element will always be the final candidate.",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
+}

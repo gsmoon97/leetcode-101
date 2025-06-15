@@ -1,0 +1,7 @@
+{
+  "id": 169,
+  "title": "Majority Element",
+  "url": "https://leetcode.com/problems/majority-element",
+  "difficulty": "Easy",
+  "tags": ["array", "hash-table", "divide-and-conquer", "sorting", "counting"]
+}
