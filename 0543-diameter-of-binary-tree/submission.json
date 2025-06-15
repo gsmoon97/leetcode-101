@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/diameter-of-binary-tree/submissions/1664862434/",
+  "language": "Python3",
+  "runtime_ms": 4,
+  "memory_mb": 20.59,
+  "time_percentile": 74.08,
+  "memory_percentile": 98.61,
+  "approach": "Post-order DFS returns each node’s left/right heights in edges and updates a global maximum with their sum, yielding the tree’s diameter in one linear pass.",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(h)"
+}

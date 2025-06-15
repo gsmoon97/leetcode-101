@@ -1,0 +1,7 @@
+{
+  "id": 543,
+  "title": "Diameter of Binary Tree",
+  "url": "https://leetcode.com/problems/diameter-of-binary-tree/description/",
+  "difficulty": "Easy",
+  "tags": ["tree", "depth-first-search", "binary-tree"]
+}
