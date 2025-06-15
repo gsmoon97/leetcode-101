@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/middle-of-the-linked-list/submissions/1664892551/",
+  "language": "Python3",
+  "runtime_ms": 0,
+  "memory_mb": 17.91,
+  "time_percentile": 100.0,
+  "memory_percentile": 8.0,
+  "approach": "Use two pointers (`slow` and `fast`); move `slow` by 1 step and `fast` by 2 steps; when `fast` reaches the end, `slow` will be at the middle node (second middle in even-length lists).",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
+}
