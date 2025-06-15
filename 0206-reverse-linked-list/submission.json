@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/reverse-linked-list/submissions/1664710976/",
+  "language": "Python3",
+  "runtime_ms": 0,
+  "memory_mb": 18.80,
+  "time_percentile": 100.00,
+  "memory_percentile": 14.67,
+  "approach": "Recursion",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
+}
