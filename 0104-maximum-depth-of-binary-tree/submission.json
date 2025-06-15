@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/submissions/1664902164/",
+  "language": "Python3",
+  "runtime_ms": 0,
+  "memory_mb": 19.01,
+  "time_percentile": 100.0,
+  "memory_percentile": 48.45,
+  "approach": "DFS with recursion",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(h)"
+}
