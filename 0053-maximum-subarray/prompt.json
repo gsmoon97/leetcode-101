@@ -1,0 +1,7 @@
+{
+  "id": 53,
+  "title": "Maximum Subarray",
+  "url": "https://leetcode.com/problems/maximum-subarray/description/",
+  "difficulty": "Medium",
+  "tags": ["array", "divide-and-conquer", "dynamic-programming"]
+}

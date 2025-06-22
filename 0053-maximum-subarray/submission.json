@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/maximum-subarray/submissions/1672834114/",
+  "language": "Python3",
+  "runtime_ms": 63,
+  "memory_mb": 32.54,
+  "time_percentile": 57.63,
+  "memory_percentile": 51.33,
+  "approach": "Kadane's Algorithm: keeps track of the maximum subarray sum ending at each position, and updates a global maximum as it goes",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
+}
