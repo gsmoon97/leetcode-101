@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/insert-interval/submissions/1747370754/",
+  "language": "Python3",
+  "runtime_ms": 0,
+  "memory_mb": 19.53,
+  "time_percentile": 100.0,
+  "memory_percentile": 89.64,
+  "approach": "Divide into three phases:\n\t1) Add all intervals that end before `newInterval` starts\n\t2) Merge all intervals that start before `newInterval` ends\n\t3) Add all remaining intervals that start after newInterval ends",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
+}
