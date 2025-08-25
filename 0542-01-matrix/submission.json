@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/01-matrix/submissions/1748264941/",
+  "language": "Python3",
+  "runtime_ms": 139,
+  "memory_mb": 20.71,
+  "time_percentile": 53.25,
+  "memory_percentile": 44.26,
+  "approach": "Multi-source BFS: formulate the problem from finding the shortest path from 'each 1s to 0s' to finding the shortest path from 'each 0s to 1s' triggering BFS search from all 0s",
+  "time_complexity": "O(m x n)",
+  "space_complexity": "O(m x n)"
+}

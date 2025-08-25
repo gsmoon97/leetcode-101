@@ -1,0 +1,7 @@
+{
+  "id": 542,
+  "title": "01 Matrix",
+  "url": "https://leetcode.com/problems/01-matrix/description/",
+  "difficulty": "Medium",
+  "tags": ["array", "dynamic-programming", "breadth-first-search", "matrix"]
+}
