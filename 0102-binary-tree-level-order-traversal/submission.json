@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/binary-tree-level-order-traversal/submissions/1749218000/",
+  "language": "Python3",
+  "runtime_ms": 1,
+  "memory_mb": 18.53,
+  "time_percentile": 29.83,
+  "memory_percentile": 38.64,
+  "approach": "Iterative BFS using queue with a additional variable to keep track of the current level",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
+}
