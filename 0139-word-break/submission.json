@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/word-break/submissions/1749574420/",
+  "language": "Python3",
+  "runtime_ms": 7,
+  "memory_mb": 18.05,
+  "time_percentile": 23.52,
+  "memory_percentile": 25.17,
+  "approach": "Top-down dynamic programming with memoization",
+  "time_complexity": "O(n^2 x m)",
+  "space_complexity": "O(n^2)"
+}
