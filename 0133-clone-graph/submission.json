@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/clone-graph/submissions/1749544020/",
+  "language": "Python3",
+  "runtime_ms": 50,
+  "memory_mb": 18.00,
+  "time_percentile": 14.31,
+  "memory_percentile": 97.55,
+  "approach": "Recursive DFS with a HashMap to keep track of all previously cloned nodes to ensure any node is cloned only once",
+  "time_complexity": "O(V+E)",
+  "space_complexity": "O(V)"
+}

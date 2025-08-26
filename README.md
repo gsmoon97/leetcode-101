@@ -31,30 +31,30 @@ A well-organized, self-contained archive of accepted LeetCode solutions, with ea
 
 ### Overall
 
-- Total Problems Solved: 28
-- Average Runtime: 16.93 ms
-- Average Memory: 20.60 MB
-- Average Time Percentile: 74.90%
-- Average Memory Percentile: 55.51%
+- Total Problems Solved: 29
+- Average Runtime: 18.07 ms
+- Average Memory: 20.51 MB
+- Average Time Percentile: 72.81%
+- Average Memory Percentile: 56.95%
 
 ### Difficulty Breakdown
 
 | Difficulty | Count |
 |------------|-------|
 | Easy | 23 |
-| Medium | 5 |
+| Medium | 6 |
 
 ### Top Tags
 
 | Tag | Count |
 |-----|-------|
 | array | 9 |
-| hash-table | 6 |
-| depth-first-search | 6 |
+| hash-table | 7 |
+| depth-first-search | 7 |
+| breadth-first-search | 6 |
 | tree | 6 |
 | binary-tree | 6 |
 | string | 6 |
-| breadth-first-search | 5 |
 | dynamic-programming | 4 |
 | linked-list | 4 |
 | sorting | 3 |
@@ -63,7 +63,7 @@ A well-organized, self-contained archive of accepted LeetCode solutions, with ea
 
 | Language | Count |
 |----------|-------|
-| Python3 | 28 |
+| Python3 | 29 |
 
 ---
 
