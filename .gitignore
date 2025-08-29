@@ -3,3 +3,10 @@
 
 # Environment
 .venv
+
+# Configuration
+.env
+
+# Claude
+.mcp.json
+CLAUDE.md
