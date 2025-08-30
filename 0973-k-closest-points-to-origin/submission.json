@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/k-closest-points-to-origin/submissions/1754006088/",
+  "language": "Python3",
+  "runtime_ms": 69,
+  "memory_mb": 60.89,
+  "time_percentile": 22.31,
+  "memory_percentile": 76.60,
+  "approach": "Max Heap: One-pass iteration of `points` while maintaining k points with smallest distance from the origin",
+  "time_complexity": "O(n log k)",
+  "space_complexity": "O(k)"
+}

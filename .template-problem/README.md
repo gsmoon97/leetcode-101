@@ -1,1 +1,1 @@
-<!-- This README will be overwritten by generate_readme.py -->
+<!-- This README will be populated by gen_readme.py -->
