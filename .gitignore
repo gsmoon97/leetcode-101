@@ -8,5 +8,6 @@
 .env
 
 # Claude
+.claude
 .mcp.json
 CLAUDE.md

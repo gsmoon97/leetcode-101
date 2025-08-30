@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/1754078229/",
+  "language": "Python3",
+  "runtime_ms": 19,
+  "memory_mb": 17.83,
+  "time_percentile": 53.22,
+  "memory_percentile": 52.54,
+  "approach": "Sliding window approach with HashMap: One-pass iteration of the string with a `start` to keep track of the start of the substring and `seen` to keep track of when each unique character was seen most recently. When the current character has been seen before (i.e., duplicate), 1) update `start` to the position right after the duplicate or maintain the current `start`, whichever is later.",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
+}
