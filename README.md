@@ -18,9 +18,9 @@ A well-organized, self-contained archive of accepted LeetCode solutions, with ea
 │   └── README.md
 │
 ├── init.sh                ← scaffold generator
+├── gemini_init.py         ← AI-powered scaffold generator
 ├── gen_readme.py          ← readme generator
 ├── get_stats.py           ← statistics updater
-├── update_submission.py   ← submission updater
 ├── requirements.txt       ← Python dependencies
 └── README.md              ← this file
 ```
@@ -77,15 +77,37 @@ A well-organized, self-contained archive of accepted LeetCode solutions, with ea
 
 *(On Linux, replace `brew` with your package manager; on Windows, Scoop or WSL can do the same.)*
 
+### AI Setup (for `gemini_init.py`)
+
+1. **Install AI dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Set up Gemini API key:**
+   ```bash
+   # Create .env file with your Google API key
+   echo "GOOGLE_API_KEY=your_google_api_key_here" > .env
+   ```
+   
+   Get your API key from [Google AI Studio](https://makersuite.google.com/app/apikey)
+
 ---
 
 ## 🚀  Workflow
 
 1. **Create a new scaffold**
 
+   **Option A: AI-Powered (Recommended)**
+   ```bash
+   python gemini_init.py https://leetcode.com/problems/best-time-to-buy-and-sell-stock
+   # → 0123-best-time-to-buy-and-sell-stock/ (with auto-populated metadata)
+   ```
+   
+   **Option B: Manual**
    ```bash
    ./init.sh 123 "Best Time to Buy and Sell Stock" https://leetcode.com/problems/best-time-to-buy-and-sell-stock
-   # → 0123-best-time-to-buy-and-sell-stock/
+   # → 0123-best-time-to-buy-and-sell-stock/ (requires manual metadata entry)
    ```
 
 2. **Solve the problem**  
@@ -104,7 +126,7 @@ A well-organized, self-contained archive of accepted LeetCode solutions, with ea
 
    ```bash
    git add 0123-best-time-to-buy-and-sell-stock
-   git commit -m "[LeetCode] 0123 – Buy/Sell Stock ✅ Python solution, 47 ms"
+   git commit -m "Best Time to Buy and Sell Stock"
    ```
 
 ---
@@ -118,7 +140,7 @@ A well-organized, self-contained archive of accepted LeetCode solutions, with ea
 | `solution.*` | Exactly **one** source file representing the latest accepted solution. |
 | `README.md` | Auto-generated summary combining the two JSON files + code. |
 
-Copy this directory whenever you start a new problem—our `init.sh` does the copying and placeholder replacement for you.
+Copy this directory whenever you start a new problem—both `init.sh` and `gemini_init.py` handle the copying and metadata population for you.
 
 ---
 
@@ -126,10 +148,10 @@ Copy this directory whenever you start a new problem—our `init.sh` does the co
 
 | Script | Description |
 |--------|-------------|
-| `init.sh` | Scaffolds a new problem folder from `.template-problem`. |
+| `init.sh` | Scaffolds a new problem folder from `.template-problem` with manual metadata entry. |
+| `gemini_init.py` | AI-powered scaffold generator using Gemini to extract metadata from LeetCode URLs. |
 | `gen_readme.py` | Builds/refreshes the per-problem `README.md` using JSON metadata. |
 | `get_stats.py` | Updates the root-level README.md with overall statistics (problems solved, runtime, memory, etc.). |
-| `update_submission.py` | Updates submission metrics in problem folders. |
 
 All scripts live in the repo root for easy access.
 
