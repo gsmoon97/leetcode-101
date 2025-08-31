@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/3sum/submissions/1754188800/",
+  "language": "Python3",
+  "runtime_ms": 463,
+  "memory_mb": 20.70,
+  "time_percentile": 85.29,
+  "memory_percentile": 36.02,
+  "approach": "Sorting & Two-Pointers: Sort the list first, then iterate through each element using two-pointers on the remaining elements to find the optimal two sum that complements the current element to sum upto 0.",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(1)"
+}
