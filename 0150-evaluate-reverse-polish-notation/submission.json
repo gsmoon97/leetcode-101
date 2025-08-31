@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/evaluate-reverse-polish-notation/submissions/1755202833/",
+  "language": "Python3",
+  "runtime_ms": 4,
+  "memory_mb": 19.25,
+  "time_percentile": 28.59,
+  "memory_percentile": 17.35,
+  "approach": "Stack: One-pass iteration on `tokens` while using a stack to keep track of all operands and process them in LIFO order. When operand, push to stack. When operator (+, -, *, /), pop the last two operands from the stack to perform operation and push the result back into the stack.",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
+}
