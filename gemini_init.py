@@ -129,14 +129,14 @@ def create_problem_folder(metadata: dict, problem_url: str):
         slug = re.sub(r'[^a-z0-9]+', '-', title.lower()).strip('-')
     
     folder_name = f"{problem_id:04d}-{slug}"
-    folder_path = Path(folder_name)
+    folder_path = Path("problems") / folder_name
     
     if folder_path.exists():
         print(f"⚠️  Folder {folder_name} already exists")
         return folder_path
     
     # Copy template
-    template_path = Path('.template-problem')
+    template_path = Path('problems/.template-problem')
     if not template_path.exists():
         raise Exception("Template folder .template-problem not found")
     

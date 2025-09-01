@@ -5,17 +5,19 @@ A well-organized, self-contained archive of accepted LeetCode solutions, with ea
 ```
 <root>/
 │
-├── .template-problem/      ← reusable blueprint (do not edit)
-│   ├── prompt.json         ← problem metadata
-│   ├── submission.json     ← submission metrics
-│   ├── solution.py         ← solution template
-│   └── README.md           ← readme template
-│
-├── 0001-two-sum/           ← example problem folder
-│   ├── prompt.json
-│   ├── submission.json
-│   ├── solution.py
-│   └── README.md
+├── problems/               ← all LeetCode problems
+│   ├── .template-problem/  ← reusable blueprint (do not edit)
+│   │   ├── prompt.json     ← problem metadata
+│   │   ├── submission.json ← submission metrics
+│   │   ├── solution.py     ← solution template
+│   │   └── README.md       ← readme template
+│   │
+│   ├── 0001-two-sum/       ← example problem folder
+│   │   ├── prompt.json
+│   │   ├── submission.json
+│   │   ├── solution.py
+│   │   └── README.md
+│   └── ...
 │
 ├── init.sh                ← scaffold generator
 ├── gemini_init.py         ← AI-powered scaffold generator
@@ -101,13 +103,13 @@ A well-organized, self-contained archive of accepted LeetCode solutions, with ea
    **Option A: AI-Powered (Recommended)**
    ```bash
    python gemini_init.py https://leetcode.com/problems/best-time-to-buy-and-sell-stock
-   # → 0123-best-time-to-buy-and-sell-stock/ (with auto-populated metadata)
+   # → problems/0123-best-time-to-buy-and-sell-stock/ (with auto-populated metadata)
    ```
    
    **Option B: Manual**
    ```bash
    ./init.sh 123 "Best Time to Buy and Sell Stock" https://leetcode.com/problems/best-time-to-buy-and-sell-stock
-   # → 0123-best-time-to-buy-and-sell-stock/ (requires manual metadata entry)
+   # → problems/0123-best-time-to-buy-and-sell-stock/ (requires manual metadata entry)
    ```
 
 2. **Solve the problem**  
@@ -119,13 +121,13 @@ A well-organized, self-contained archive of accepted LeetCode solutions, with ea
 4. **Generate the folder-level README**
 
    ```bash
-   python gen_readme.py 0123-best-time-to-buy-and-sell-stock
+   python gen_readme.py problems/0123-best-time-to-buy-and-sell-stock
    ```
 
 5. **Commit**
 
    ```bash
-   git add 0123-best-time-to-buy-and-sell-stock
+   git add problems/0123-best-time-to-buy-and-sell-stock
    git commit -m "Best Time to Buy and Sell Stock"
    ```
 
@@ -165,7 +167,7 @@ To automatically update the root-level README.md whenever problem files are modi
 #!/bin/sh
 
 # Check if any problem folders were modified
-if git diff --cached --name-only | grep -E '^[0-9]+-.*/.*\.(json|py)$' > /dev/null; then
+if git diff --cached --name-only | grep -E '^problems/[0-9]+-.*/.*\.(json|py)$' > /dev/null; then
     echo "Updating README.md with latest statistics..."
     python3 get_stats.py
     git add README.md

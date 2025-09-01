@@ -11,10 +11,10 @@ def load_json_file(filepath: str) -> dict:
 
 def get_all_problems() -> List[Tuple[str, dict, dict]]:
     problems = []
-    for item in os.listdir('.'):
-        if os.path.isdir(item) and item[0].isdigit():
-            prompt_path = os.path.join(item, 'prompt.json')
-            submission_path = os.path.join(item, 'submission.json')
+    for item in os.listdir('problems'):
+        if os.path.isdir(os.path.join('problems', item)) and item[0].isdigit():
+            prompt_path = os.path.join('problems', item, 'prompt.json')
+            submission_path = os.path.join('problems', item, 'submission.json')
             
             if os.path.exists(prompt_path) and os.path.exists(submission_path):
                 prompt = load_json_file(prompt_path)

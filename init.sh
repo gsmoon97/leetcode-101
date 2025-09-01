@@ -18,10 +18,10 @@ printf -v id "%04d" "$id_raw"
 # slug: lower-case, replace spaces/non-alnum with hyphens
 slug=$(echo "$title_raw" | tr '[:upper:]' '[:lower:]' | tr -c 'a-z0-9' '-' | tr -s '-' | sed 's/-$//')
 
-dir="${id}-${slug}"
+dir="problems/${id}-${slug}"
 
 # copy template
-cp -r .template-problem "$dir"
+cp -r problems/.template-problem "$dir"
 
 # fill prompt.json placeholders
 jq \
