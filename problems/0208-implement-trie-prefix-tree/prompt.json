@@ -1,0 +1,12 @@
+{
+  "id": 208,
+  "title": "Implement Trie (Prefix Tree)",
+  "url": "https://leetcode.com/problems/implement-trie-prefix-tree/",
+  "difficulty": "Medium",
+  "tags": [
+    "hash-table",
+    "string",
+    "design",
+    "trie"
+  ]
+}

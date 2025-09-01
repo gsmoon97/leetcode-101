@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/implement-trie-prefix-tree/submissions/1756366335/",
+  "language": "Python3",
+  "runtime_ms": 39,
+  "memory_mb": 32.06,
+  "time_percentile": 80.81,
+  "memory_percentile": 75.65,
+  "approach": "Implement `TrieNode` class to construct `Trie`: `TrieNode` class has two attributes: 1) children (a dictionary where key is the character and value is the `TrieNode` object of the child) 2) is_terminal (a boolean to indicate whether the current node is terminal i.e., end of the word)",
+  "time_complexity": "O(m)",
+  "space_complexity": "O(m x n)"
+}
