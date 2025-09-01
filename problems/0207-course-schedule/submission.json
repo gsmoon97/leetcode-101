@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/course-schedule/submissions/1756226736/",
+  "language": "Python3",
+  "runtime_ms": 9,
+  "memory_mb": 19.51,
+  "time_percentile": 18.25,
+  "memory_percentile": 22.13,
+  "approach": "DFS with Three States: Formulate the problem into cycle detection in directed graph. Use DFS to track cycles. Track three states for each node 0: Unvisited, 1: Visiting, 2: Visited. Iterate through all nodes to detect cycle while maintaining `states` to keep track of the state for each node. Skip nodes that have been fully explored before (no cycle detected). Cycle detected if node with `state=1` is visited again.",
+  "time_complexity": "O(V + E)",
+  "space_complexity": "O(V + E)"
+}

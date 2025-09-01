@@ -1,0 +1,12 @@
+{
+  "id": 207,
+  "title": "Course Schedule",
+  "url": "https://leetcode.com/problems/course-schedule/",
+  "difficulty": "Medium",
+  "tags": [
+    "depth-first-search",
+    "breadth-first-search",
+    "graph",
+    "topological-sort"
+  ]
+}
