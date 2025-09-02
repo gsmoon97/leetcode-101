@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/product-of-array-except-self/submissions/1756469091/",
+  "language": "Python3",
+  "runtime_ms": 24,
+  "memory_mb": 26.08,
+  "time_percentile": 53.69,
+  "memory_percentile": 28.72,
+  "approach": "Prefix and Suffix Products: Three linear passes: 1) Calculate all prefix products (i.e., product of all preceding numbers) 2) Calculate all suffix products (i.e., product of all following numbers) 3) Calculate the final product of prefix and suffix products",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
+}
