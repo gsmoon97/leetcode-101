@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/min-stack/submissions/1757563747/",
+  "language": "Python3",
+  "runtime_ms": 8,
+  "memory_mb": 21.30,
+  "time_percentile": 40.20,
+  "memory_percentile": 60.27,
+  "approach": "Two-stack approach: 1) `stack` to keep track of elements in the order push/pop operation (LIFO) 2) `min_stack` to keep track of the minimum value at each point of the push operation",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(n)"
+}

@@ -1,0 +1,10 @@
+{
+  "id": 155,
+  "title": "Min Stack",
+  "url": "https://leetcode.com/problems/min-stack/description/",
+  "difficulty": "Medium",
+  "tags": [
+    "stack",
+    "design"
+  ]
+}

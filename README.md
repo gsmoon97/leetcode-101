@@ -33,18 +33,18 @@ A self-contained archive of accepted LeetCode solutions.
 
 ### Overall
 
-- Total Problems Solved: 38
-- Average Runtime: 49.08 ms
-- Average Memory: 21.77 MB
-- Average Time Percentile: 67.28%
-- Average Memory Percentile: 53.75%
+- Total Problems Solved: 39
+- Average Runtime: 48.03 ms
+- Average Memory: 21.76 MB
+- Average Time Percentile: 66.59%
+- Average Memory Percentile: 53.92%
 
 ### Difficulty Breakdown
 
 | Difficulty | Count |
 |------------|-------|
 | Easy | 23 |
-| Medium | 15 |
+| Medium | 16 |
 
 ### Top Tags
 
@@ -65,7 +65,7 @@ A self-contained archive of accepted LeetCode solutions.
 
 | Language | Count |
 |----------|-------|
-| Python3 | 38 |
+| Python3 | 39 |
 
 ---
 
