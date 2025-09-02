@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/coin-change/submissions/1756407453/",
+  "language": "Python3",
+  "runtime_ms": 707,
+  "memory_mb": 18.23,
+  "time_percentile": 79.49,
+  "memory_percentile": 56.81,
+  "approach": "1-D DP: Bottom-up approach based on the assumption that min(amount) = min(amount - coin) + 1",
+  "time_complexity": "O(m x n) where m = amount, n = len(coins)",
+  "space_complexity": "O(m) where m = amount"
+}
