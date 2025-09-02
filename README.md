@@ -1,6 +1,6 @@
 # LeetCode-101 📚
 
-A well-organized, self-contained archive of accepted LeetCode solutions, with each problem neatly stored in its own dedicated folder.
+A self-contained archive of accepted LeetCode solutions.
 
 ```
 <root>/
