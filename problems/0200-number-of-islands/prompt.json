@@ -1,0 +1,13 @@
+{
+  "id": 200,
+  "title": "Number of Islands",
+  "url": "https://leetcode.com/problems/number-of-islands/description/",
+  "difficulty": "Medium",
+  "tags": [
+    "array",
+    "depth-first-search",
+    "breadth-first-search",
+    "union-find",
+    "matrix"
+  ]
+}

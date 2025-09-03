@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/number-of-islands/submissions/1758546372/",
+  "language": "Python3",
+  "runtime_ms": 243,
+  "memory_mb": 20.04,
+  "time_percentile": 64.21,
+  "memory_percentile": 82.91,
+  "approach": "Recursive DFS: Recursively explore all connected lands using DFS and 'sink' any visited land to mark as visited. Number of recursive DFS calls == Number of islands.",
+  "time_complexity": "O(m x n)",
+  "space_complexity": "O(m x n)"
+}
