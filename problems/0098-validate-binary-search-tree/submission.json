@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/validate-binary-search-tree/submissions/1757739339/",
+  "language": "Python3",
+  "runtime_ms": 2,
+  "memory_mb": 19.84,
+  "time_percentile": 39.17,
+  "memory_percentile": 29.60,
+  "approach": "Range-based Validation: Keep track of `min_val` and `max_val` to specify the valid range in which the child node value must be within (exclusive) based on the assumption that each node must be within a valid range based on its ancestors.",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(h)"
+}
