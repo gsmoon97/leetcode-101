@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/1759846700/",
+  "language": "Python3",
+  "runtime_ms": 0,
+  "memory_mb": 17.98,
+  "time_percentile": 100.0,
+  "memory_percentile": 90.95,
+  "approach": "Variation of Binary Search: Key observation is that for any arbitrary pivot, at least one half is always sorted. For each iteration, we halve the search space by making use of this sorted half to check if the target would be in the sorted half or the other half.",
+  "time_complexity": "O(log n)",
+  "space_complexity": "O(1)"
+}

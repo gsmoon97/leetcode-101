@@ -1,0 +1,10 @@
+{
+  "id": 33,
+  "title": "Search in Rotated Sorted Array",
+  "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/description/",
+  "difficulty": "Medium",
+  "tags": [
+    "array",
+    "binary-search"
+  ]
+}
