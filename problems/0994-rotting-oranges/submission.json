@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/rotting-oranges/submissions/1758804200/",
+  "language": "Python3",
+  "runtime_ms": 3,
+  "memory_mb": 17.97,
+  "time_percentile": 81.46,
+  "memory_percentile": 26.36,
+  "approach": "Multi-source BFS: Use queue (i.e., deque) to keep track of all newly rotten oranges at each minute. Use the fixed length of the queue at the start of each minute to process only the relevant cells for the corresponding minute (i.e., BFS level).",
+  "time_complexity": "O(m x n)",
+  "space_complexity": "O(m x n)"
+}
