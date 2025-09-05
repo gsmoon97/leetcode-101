@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/combination-sum/submissions/1760075452/",
+  "language": "Python3",
+  "runtime_ms": 5,
+  "memory_mb": 17.71,
+  "time_percentile": 87.11,
+  "memory_percentile": 87.83,
+  "approach": "Backtracking: Backtracking is more suitable than DP for this type of problem since the task is to find all possible combinations. Implement backtrack logic to find all possible combinations that sum up to `target` without any duplicate combinations, where N=number of candidates, T=target value, M=minimum candidate value .",
+  "time_complexity": "O(N ^ (T/M))",
+  "space_complexity": "O(T/M)"
+}
