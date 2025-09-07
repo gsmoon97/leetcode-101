@@ -33,24 +33,24 @@ A self-contained archive of accepted LeetCode solutions.
 
 ### Overall
 
-- Total Problems Solved: 45
-- Average Runtime: 47.24 ms
-- Average Memory: 21.34 MB
-- Average Time Percentile: 68.20%
-- Average Memory Percentile: 55.10%
+- Total Problems Solved: 46
+- Average Runtime: 46.37 ms
+- Average Memory: 21.35 MB
+- Average Time Percentile: 68.30%
+- Average Memory Percentile: 54.24%
 
 ### Difficulty Breakdown
 
 | Difficulty | Count |
 |------------|-------|
 | Easy | 23 |
-| Medium | 22 |
+| Medium | 23 |
 
 ### Top Tags
 
 | Tag | Count |
 |-----|-------|
-| array | 20 |
+| array | 21 |
 | breadth-first-search | 10 |
 | hash-table | 10 |
 | depth-first-search | 10 |
@@ -58,14 +58,14 @@ A self-contained archive of accepted LeetCode solutions.
 | tree | 7 |
 | binary-tree | 7 |
 | dynamic-programming | 6 |
-| sorting | 5 |
+| sorting | 6 |
 | matrix | 4 |
 
 ### Languages Used
 
 | Language | Count |
 |----------|-------|
-| Python3 | 45 |
+| Python3 | 46 |
 
 ---
 

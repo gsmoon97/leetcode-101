@@ -1,0 +1,10 @@
+{
+  "id": 56,
+  "title": "Merge Intervals",
+  "url": "https://leetcode.com/problems/merge-intervals/description/",
+  "difficulty": "Medium",
+  "tags": [
+    "array",
+    "sorting"
+  ]
+}

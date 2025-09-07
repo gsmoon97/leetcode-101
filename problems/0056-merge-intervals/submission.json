@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/merge-intervals/submissions/1762334987/",
+  "language": "Python3",
+  "runtime_ms": 7,
+  "memory_mb": 21.75,
+  "time_percentile": 72.95,
+  "memory_percentile": 15.38,
+  "approach": "Sort & Two-Pointers: Sort list `nums` based on the 'start time.' Then, initialize two pointers (`running_start`, `running_end`) to keep track of start and end of the current interval. Only flush when the start of the current interval comes after `running_end`.",
+  "time_complexity": "O(n x log n)",
+  "space_complexity": "O(1)"
+}
