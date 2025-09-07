@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/permutations/submissions/1762208633/",
+  "language": "Python3",
+  "runtime_ms": 0,
+  "memory_mb": 17.98,
+  "time_percentile": 100.0,
+  "memory_percentile": 58.91,
+  "approach": "Backtracking: Initialize a list `used` to keep track of whether each number was included in the running permutation or not. 1) Choose a number to include in the permutation. 2) Explore all possible sub-permutations. 3) Backtrack the number for the next iteration.",
+  "time_complexity": "O(n! x n)",
+  "space_complexity": "O(n)"
+}

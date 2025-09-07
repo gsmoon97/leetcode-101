@@ -1,0 +1,10 @@
+{
+  "id": 46,
+  "title": "Permutations",
+  "url": "https://leetcode.com/problems/permutations/",
+  "difficulty": "Medium",
+  "tags": [
+    "array",
+    "backtracking"
+  ]
+}
