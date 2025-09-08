@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/submissions/1763200291/",
+  "language": "Python3",
+  "runtime_ms": 32,
+  "memory_mb": 22.14,
+  "time_percentile": 99.77,
+  "memory_percentile": 44.17,
+  "approach": "Recursive DFS: Recursively traverse the left and right subtree to verify if the subtree contain either `p` or `q`. Key assumption is that if both left and right subtrees return non-null values, the current node is the LCA. Propogate this LCA to the root. Even if `p` or `q` happens to be the ancestor of the other node, there is no need to traverse the subtree of the ancestor node since the LCA will be `p` or `q` respectively.",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(h)"
+}
