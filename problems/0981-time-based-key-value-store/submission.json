@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/time-based-key-value-store/submissions/1763293278/",
+  "language": "Python3",
+  "runtime_ms": 154,
+  "memory_mb": 74.64,
+  "time_percentile": 22.0,
+  "memory_percentile": 42.76,
+  "approach": "Hash Table & Binary Search: Hash Table to map 'key' with ('timestamp_i', 'value_i'). Binary Search to find the largest `timestamp_prev` <= `timestamp` and 'get' the corresponding value.",
+  "time_complexity": "set: O(1); get: O(log n) where n = total number of timestamps for input `key`",
+  "space_complexity": "O(m) where m = total number of `set` operations"
+}

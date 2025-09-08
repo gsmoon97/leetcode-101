@@ -1,0 +1,12 @@
+{
+  "id": 981,
+  "title": "Time Based Key-Value Store",
+  "url": "https://leetcode.com/problems/time-based-key-value-store/description/",
+  "difficulty": "Medium",
+  "tags": [
+    "hash-table",
+    "string",
+    "binary-search",
+    "design"
+  ]
+}
