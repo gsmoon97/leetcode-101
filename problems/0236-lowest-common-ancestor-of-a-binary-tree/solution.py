@@ -22,4 +22,3 @@ class Solution:
             return root
         
         return left if left else right
-
