@@ -1,0 +1,13 @@
+{
+  "id": 721,
+  "title": "Accounts Merge",
+  "url": "https://leetcode.com/problems/accounts-merge/",
+  "difficulty": "Medium",
+  "tags": [
+    "array",
+    "string",
+    "depth-first-search",
+    "breadth-first-search",
+    "union-find"
+  ]
+}

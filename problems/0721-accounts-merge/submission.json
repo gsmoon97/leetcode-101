@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/accounts-merge/submissions/1764302362/",
+  "language": "Python3",
+  "runtime_ms": 38,
+  "memory_mb": 20.93,
+  "time_percentile": 35.52,
+  "memory_percentile": 62.85,
+  "approach": "Union-Find: 1) Each element (e.g., email) starts as its own group. 2) Union: Merge any two elements that belong to the same group (e.g., two different emails under the same account). 3) Find: Find all elements (e.g., emails) that belong in the same group (e.g., same account)",
+  "time_complexity": "O(n log n) (dominated by sorting of emails for each account; Union-Find operations are considered as O(1))",
+  "space_complexity": "O(n)"
+}
