@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/sort-colors/submissions/1764322733/",
+  "language": "Python3",
+  "runtime_ms": 0,
+  "memory_mb": 17.78,
+  "time_percentile":100.0,
+  "memory_percentile": 53.76,
+  "approach": "Three-Pointers (a.k.a. Dutch National Flag Algorithm): 1) `i` to keep track of the current index 2) `left` to keep track of where 0 should be placed 3) `right` to keep track of where 2 should be placed",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
+}
