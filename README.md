@@ -33,39 +33,39 @@ A self-contained archive of accepted LeetCode solutions.
 
 ### Overall
 
-- Total Problems Solved: 50
-- Average Runtime: 47.14 ms
-- Average Memory: 22.35 MB
+- Total Problems Solved: 51
+- Average Runtime: 57.08 ms
+- Average Memory: 22.27 MB
 - Average Time Percentile: 67.98%
-- Average Memory Percentile: 53.97%
+- Average Memory Percentile: 54.37%
 
 ### Difficulty Breakdown
 
 | Difficulty | Count |
 |------------|-------|
 | Easy | 23 |
-| Medium | 27 |
+| Medium | 28 |
 
 ### Top Tags
 
 | Tag | Count |
 |-----|-------|
-| array | 23 |
+| array | 24 |
 | depth-first-search | 12 |
 | breadth-first-search | 11 |
 | hash-table | 11 |
 | string | 11 |
 | tree | 8 |
 | binary-tree | 8 |
+| dynamic-programming | 7 |
 | sorting | 7 |
-| dynamic-programming | 6 |
 | two-pointers | 5 |
 
 ### Languages Used
 
 | Language | Count |
 |----------|-------|
-| Python3 | 50 |
+| Python3 | 51 |
 
 ---
 

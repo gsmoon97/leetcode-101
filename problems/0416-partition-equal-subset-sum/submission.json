@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/partition-equal-subset-sum/submissions/1764419817/",
+  "language": "Python3",
+  "runtime_ms": 554,
+  "memory_mb": 18.04,
+  "time_percentile": 67.85,
+  "memory_percentile": 74.56,
+  "approach": "DP (Bottom-Up): Formulate as a 0/1 Knapsack Problem. Iterate over all `nums` and update `dp` to be `dp[i] or dp[i - num]`. For each `num`, traverse `i` backwards to prevent using the same element twice.",
+  "time_complexity": "O(n x s) where n = number of numbers, s = target sum",
+  "space_complexity": "O(n) where n = number of numbers"
+}
