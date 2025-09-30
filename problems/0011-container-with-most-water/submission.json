@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/container-with-most-water/submissions/1787518395/",
+  "language": "Python3",
+  "runtime_ms": 101,
+  "memory_mb": 28.46,
+  "time_percentile": 60.28,
+  "memory_percentile": 68.10,
+  "approach": "Two-Pointer & Greedy: Volume is constrained by the shorter line, so move the pointer at the shorter line inward to try to find a taller line.",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
