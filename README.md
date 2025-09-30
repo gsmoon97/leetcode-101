@@ -34,10 +34,10 @@ A self-contained archive of accepted LeetCode solutions.
 ### Overall
 
 - Total Problems Solved: 53
-- Average Runtime: 103.64 ms
+- Average Runtime: 57.02 ms
 - Average Memory: 22.89 MB
-- Average Time Percentile: 65.51%
-- Average Memory Percentile: 54.05%
+- Average Time Percentile: 66.88%
+- Average Memory Percentile: 53.69%
 
 ### Difficulty Breakdown
 

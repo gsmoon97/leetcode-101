@@ -1,11 +1,11 @@
 {
   "url": "",
   "language": "Python3",
-  "runtime_ms": 2582,
+  "runtime_ms": 111,
   "memory_mb": 77.86,
-  "time_percentile": 5.01,
-  "memory_percentile": 91.91,
-  "approach": "Two data structues: 1) HashMap for storing key-value pairs, 2) Queue for storing the usage order of keys.",
-  "time_complexity": "O(1) for `get()` but O(N) for `put()` operation where N is the capacity of the cache",
+  "time_percentile": 77.96,
+  "memory_percentile": 72.53,
+  "approach": "Two data structues: 1) HashMap for storing key-Node pairs, 2) Doubly Linked List for tracking the usage order of keys",
+  "time_complexity": "O(1) for `get()` and `put()` operation where N is the capacity of the cache",
   "space_complexity": "O(N) where N is the capacity of the cache"
 }
