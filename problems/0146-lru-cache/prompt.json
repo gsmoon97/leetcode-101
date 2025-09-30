@@ -1,0 +1,12 @@
+{
+  "id": 146,
+  "title": "LRU Cache",
+  "url": "https://leetcode.com/problems/lru-cache/",
+  "difficulty": "Medium",
+  "tags": [
+    "hash-table",
+    "linked-list",
+    "design",
+    "doubly-linked-list"
+  ]
+}
