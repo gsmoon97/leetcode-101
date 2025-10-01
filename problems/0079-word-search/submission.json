@@ -1,0 +1,11 @@
+{
+  "url": "https://leetcode.com/problems/word-search/submissions/1787907312/",
+  "language": "Python3",
+  "runtime_ms": 3905,
+  "memory_mb": 17.82,
+  "time_percentile": 59.75,
+  "memory_percentile": 65.48,
+  "approach": "Backtracking: DFS tracking visited cells with temporarily modifying the board (i.e., replace the cell value with a special character # to mark it as visited)",
+  "time_complexity": "O(M x N x L^3), where M and N are the dimensions of the board and L is the length of the word; worst case is when we have to explore all cells for each character in the word (i.e., 3 possible directions for each character excluding the direction it came from)",
+  "space_complexity": "O(L), where L is the length of the word"
+}

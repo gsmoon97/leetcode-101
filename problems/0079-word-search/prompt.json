@@ -1,0 +1,12 @@
+{
+  "id": 79,
+  "title": "Word Search",
+  "url": "https://leetcode.com/problems/word-search/description/",
+  "difficulty": "Medium",
+  "tags": [
+    "array",
+    "string",
+    "backtracking",
+    "matrix"
+  ]
+}

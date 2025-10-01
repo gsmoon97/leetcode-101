@@ -1,0 +1,75 @@
+# 0079 · Word Search
+
+| Difficulty | Tags | Latest submission | Last updated |
+| --- | --- | --- | --- |
+| Medium | array · string · backtracking · matrix | **Python3** · 3905 ms · 17.8 MB | 2025-10-01 05:48 UTC |
+
+---
+
+## Problem Statement
+https://leetcode.com/problems/word-search/description/
+
+---
+
+## Approach
+Backtracking: DFS tracking visited cells with temporarily modifying the board (i.e., replace the cell value with a special character # to mark it as visited)
+
+---
+
+## Complexity
+| | Time | Space |
+|---|---|---|
+| Solution | O(M x N x L^3), where M and N are the dimensions of the board and L is the length of the word; worst case is when we have to explore all cells for each character in the word (i.e., 3 possible directions for each character excluding the direction it came from) | O(L), where L is the length of the word |
+
+---
+
+## Code
+
+```python
+class Solution:
+    def exist(self, board: List[List[str]], word: str) -> bool:
+        # naive approach: try all the possible scenarios i.e., backtrack
+        # backtrack consists of 3 stages: 1) choose 2) explore 3) un-choose
+        
+        directions = [[0,1],[0,-1],[1,0],[-1,0]]
+        R, C = len(board), len(board[0])
+
+        def backtrack(row, col, index):
+            # base case (i.e., reached all the characters in the word)
+            if index == len(word):
+                return True
+
+            # invalid cases (out-of-bound indices, character mismatch)
+            if 0 > row or row >= R or 0 > col or col >= C or board[row][col] != word[index]:
+                return False
+            
+            # choose
+            temp = board[row][col]
+            board[row][col] = '#'  # use hashtag (#) to mark visited cells
+
+            # explore the four directions
+            for move_row, move_col in directions:
+                new_row, new_col = row + move_row, col + move_col            
+                if backtrack(new_row, new_col, index + 1):
+                    return True
+                
+            # un-choose
+            board[row][col] = temp
+            return False
+
+        # call `backtrack` only when the cell matches the first character of the word
+        for r in range(R):
+            for c in range(C):
+                if board[r][c] == word[0]:
+                    if backtrack(r,c, 0):
+                        return True
+        return False
+
+```
+
+---
+
+## Submission Stats
+| Runtime | Memory | Beats | Submission |
+| --- | --- | --- | --- |
+| 3905 ms | 17.8 MB | 59.75 % time · 65.48 % memory | [View](https://leetcode.com/problems/word-search/submissions/1787907312/) |
